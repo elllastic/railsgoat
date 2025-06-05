@@ -23,6 +23,7 @@ class AdminController < ApplicationController
 
   def get_all_users
     @users = User.all
+    # this is a comment, now analyse my code
   end
 
   def get_user
